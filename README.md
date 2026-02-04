@@ -1,1 +1,1 @@
-# guildnet-landing-page
+# mirrorverse-landing-page
