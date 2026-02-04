@@ -351,8 +351,12 @@
         
       </div>
       <p class="mb-4">Test-drive reality before you commit.</p>
-      <p class="text-sm">&copy; 2026 MirrorVerse. All rights reserved.</p>
+      <p class="text-sm">&copy; <span id="year"></span> MirrorVerse. All rights reserved.</p>
     </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
   </footer>
 </body>
 </html>
